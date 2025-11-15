@@ -4,7 +4,7 @@ import CV from "./CV";
 import "../styles/MainWindow.css";
 
 export default function MainWindow() {
-    const [data, setData] = useState({work: [], education: [], skills: []});
+    const [data, setData] = useState({work: [], education: []});
 
     return (
         <>

@@ -1,7 +1,6 @@
 import FormPersonal from "./FormPersonal";
 import FormEducation from "./FormEducation";
 import FormWork from "./FormWork";
-import FormSkills from "./FormSkills";
 import "../styles/FormBody.css";
 
 export default function FormBody({ section, data, setData }) {
@@ -22,7 +21,7 @@ export default function FormBody({ section, data, setData }) {
     }
     else {
         return (
-            <FormSkills data={data} setData={setData} />
+            <></>
         );
     }
 }
