@@ -1,0 +1,123 @@
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 60%;
+    margin-top: -16px;
+}
+
+.form-input-container {
+    display: flex;
+    gap: 16px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+}
+
+.input-box, .input-area {
+    height: 44px;
+    padding: 6px 16px 6px 16px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    border: 3px solid transparent;
+    transition: 0.3s ease border;
+    width: 100%;
+}
+
+.input-box:focus, .input-area:focus {
+    outline: none;
+    border: 3px solid #6044FF;
+}
+
+.input-area {
+    height: 120px;
+}
+
+.input-text {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.form-heading {
+    font-size: 2rem;
+    margin: 16px 0px 0px 0px;
+    color: #3700B6;
+}
+
+/* Form Item */
+.form-item {
+    background-color: white;
+    height: 120px;
+    overflow: hidden;
+    padding: 16px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.form-item:hover {
+    background-color: #F6E0FF;
+}
+
+.form-item.active {
+    background-color: #3700B6;
+    color: white;    
+}
+
+.form-item-title {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+/* Form button */
+.form-button {
+    padding: 8px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: #3700B6;
+    color: white; 
+    cursor: pointer;   
+    border: none;
+}
+
+/* Form switch */
+.form-switch {
+    margin-top: 4px;
+    background-color: transparent;
+    width: auto;
+    height: 24px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.form-switch-ball {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: #3700B6;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.form-switch-ball.active {
+    transform: translateX(24px);
+    background-color: white;
+}
+
+.form-switch-slider {
+    width: 48px;
+    height: 16px;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: -20px;
+    transition: background 0.5s ease;
+}
+
+.form-switch-slider.active {
+    background-color: #3700B6;
+}
